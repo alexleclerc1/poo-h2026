@@ -1,0 +1,14 @@
+@startuml
+title Exercice1 - Diagramme de classes
+
+class AnimalFerme {
+  - nom : String
+  - espece : String
+  - age : int
+  - cri : String
+
+  + AnimalFerme(nom : String, espece : String, age : int, cri : String)
+  + afficherInfos() : void
+  + faireDuBruit() : void
+}
+@enduml

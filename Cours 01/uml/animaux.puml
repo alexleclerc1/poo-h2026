@@ -1,0 +1,38 @@
+@startuml
+title Exercice2 - Diagramme de classes
+
+class Vache {
+    - nom : String
+    - age : Integer
+    - couleur: String
+    + crier() : void
+}
+
+class Poule {
+    - nom : String
+    - age : Integer
+    + pondreOeuf() : void
+    + crier() : void
+}
+
+
+class Poulet {
+    - nom : String
+    - age : Integer
+    + crier() : void
+}
+
+class Cochon {
+    - nom : String
+    - age : Integer
+    - poids : float
+    + crier() : void
+}
+
+class Cheval {
+    - nom : String
+    - age : Integer
+    + crier() : void
+}
+
+@enduml
