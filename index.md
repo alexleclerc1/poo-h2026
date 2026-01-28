@@ -1,4 +1,4 @@
-# 420-215-RI - Programmation Orienté Objet - Hiver 2026
+# 420-215-RI - Programmation Orientée Objet - Hiver 2026
 
 * Cours 01
   * [1.1 La programmation orientée objet](./Cours%2001/1.1-La%20programmation%20orientée%20objet.md)
@@ -10,3 +10,4 @@
 * Cours 02
   * [2.1 Le principe d'encapsulation en POO](./Cours%2002/2.1-Le%20principe%20d’encapsulation%20en%20POO.md)
   * [2.2 UML Avancé](./Cours%2002/2.2-UML%20avancé.md)
+  * [2.3 Membres statiques en Java](./Cours%2002/2.3-Membres%20statiques%20en%20Java.md)
