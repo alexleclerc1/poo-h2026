@@ -1,4 +1,5 @@
 # Exercice – Classe `Tracteur`
+![Titre du diagramme](tracteur.jpg)
 
 ## Classe à réaliser
 
