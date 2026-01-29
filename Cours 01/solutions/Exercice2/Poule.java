@@ -1,3 +1,4 @@
+package Exercice2;
 public class Poule {
 
     private String nom;

@@ -1,3 +1,4 @@
+package Exercice1;
 public class AnimalFerme {
 
     // Attributs
