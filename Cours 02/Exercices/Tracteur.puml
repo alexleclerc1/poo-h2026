@@ -1,0 +1,35 @@
+@startuml
+title Diagramme de classes - Tracteur
+
+class Tracteur {
+    - marque : String
+    - modele : String
+    - annee : int
+    - poidsKg : double
+    - etatMoteur : boolean
+    - horametreHeures : double
+    - temperatureMoteurCelsius : double
+    + getMarque() : String
+    + setMarque(marque : String) : void
+    + getModele() : String
+    + setModele(modele : String) : void
+    + getAnnee() : int
+    + setAnnee(annee : int) : void
+    + getHorametreHeures() : double
+    + getHorametreJours() : double
+    + getHorametreAnnees() : double
+    + setHorametreHeures(heures : double) : void
+    + getPoidsKg() : double
+    + getPoidsGrammes() : double
+    + getPoidsLivres() : double
+    + setPoidsKg(poidsKg : double) : void
+    + getTemperatureMoteurCelsius() : double
+    + getTemperatureMoteurFahrenheit() : double
+    + getTemperatureMoteurKelvin() : double
+    - setTemperatureMoteurCelsius(temperatureCelsius : double) : void
+    + toString() : void
+    + demarrer() : void
+    + eteindre() : void
+}
+
+@enduml

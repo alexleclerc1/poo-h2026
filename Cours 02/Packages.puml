@@ -1,0 +1,21 @@
+@startuml Exemple avec packages
+title Organisation par packages
+
+package "cegeptr.infra" {
+  class DbConnector
+}
+
+package "cegeptr.domain" {
+  class Student
+  class Course
+}
+
+package "cegeptr.app" {
+  class EnrollmentService
+}
+
+DbConnector ..> EnrollmentService : provides
+EnrollmentService ..> Student
+EnrollmentService ..> Course
+
+@enduml
