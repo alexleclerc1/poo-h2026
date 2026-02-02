@@ -10,4 +10,7 @@
 * Cours 02
   * [2.1 Le principe d'encapsulation en POO](./Cours%2002/2.1-Le%20principe%20d’encapsulation%20en%20POO.md)
   * [2.2 UML Avancé](./Cours%2002/2.2-UML%20avancé.md)
-  * [2.3 Membres statiques en Java](./Cours%2002/2.3-Membres%20statiques%20en%20Java.md)
+
+* Cours 03
+  * [3.1 Membres statiques en Java](./Cours%2003/3.1-Membres%20statiques%20en%20Java.md)
+  * [3.2-Conteneurs dynamiques](./Cours%2003/3.2-Conteneurs%20dynamiques.md)
