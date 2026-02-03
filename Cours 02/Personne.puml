@@ -4,7 +4,7 @@ title Classe Java simple
 class Personne {
   - nom : String
   - age  : int
-  + Personne(name : String, age : int)
+  + Personne(nom : String, age : int)
   + getNom() : String
   + getAge() : int
   + setAge(age : int) : void

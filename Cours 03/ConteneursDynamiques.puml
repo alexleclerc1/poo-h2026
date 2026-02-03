@@ -1,0 +1,9 @@
+@startuml Classe ArrayList
+title Hiérarchie simplifiée
+
+interface Iterable { }
+interface Collection extends Iterable { }
+interface List extends Collection { }
+class ArrayList implements List { }
+
+@enduml
