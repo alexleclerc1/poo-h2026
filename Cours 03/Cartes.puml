@@ -2,7 +2,7 @@
 title Relation de composition
 
 class GestionMainCarte {
-  - List<Carte> jeu
+  - List<Carte> paquet
   - List<Carte> main
 }
 
@@ -12,7 +12,7 @@ class Carte {
   - symbole : String
 }
 
-GestionMainCarte "1" *-- "52" Carte : jeu
+GestionMainCarte "1" *-- "0..52" Carte : paquet
 GestionMainCarte "1" *-- "0..5" Carte : main
 left to right direction
 
