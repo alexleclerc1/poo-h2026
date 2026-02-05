@@ -1,0 +1,19 @@
+@startuml Composition
+title Relation de composition
+
+class GestionMainCarte {
+  - List<Carte> jeu
+  - List<Carte> main
+}
+
+class Carte {
+  - valeur : int
+  - couleur : String
+  - symbole : String
+}
+
+GestionMainCarte "1" *-- "52" Carte : jeu
+GestionMainCarte "1" *-- "0..5" Carte : main
+left to right direction
+
+@enduml
