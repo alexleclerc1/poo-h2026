@@ -61,7 +61,7 @@ En cas de valeur invalide, une **`IllegalArgumentException`** doit être levée.
 
 
 ### Méthodes
-- Une exception **`IllegalArgumentException`** doit être levée si la méthode demarrer() est lancée lorsque le moteur est déjà en marche et vice versa.
+- Une exception **`IllegalStateException`** doit être levée si la méthode demarrer() est lancée lorsque le moteur est déjà en marche et vice versa.
 ---
 
 ## Horamètre
