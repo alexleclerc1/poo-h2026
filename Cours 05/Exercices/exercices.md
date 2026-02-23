@@ -9,15 +9,11 @@
      - `arreter()` → affiche : `"<marque> s'arrête."` et met `enMarche = false`
      - `seDeplacer()` → affiche : `"<marque> se déplace."`
      - getters pour `marque`, `annee`, `enMarche`
-2. Créez trois sous-classes **sans polymorphisme dans l’utilisation** :
+2. Créez trois sous-classes :
    - **`Voiture`** : ajoute `klaxonner()` → `"<marque> klaxonne : tut tut!"`
    - **`Chaloupe`** : ajoute `ramer()` → `"<marque> avance à la rame."`
    - **`Moto`** : ajoute `cabrer()` → `"<marque> cabre brièvement."`
 3. Dans un `main`, **instanciez** *chaque type concret* dans sa **propre variable** et appelez leurs méthodes **sans** les référencer via le type `Vehicule`.
-4. **Interdit pour cet exercice** :
-   - pas de tableau ou liste de `Vehicule`,
-   - pas de `Vehicule v = new Voiture(...)`,
-   - pas de dispatch dynamique via une référence parent.
 
 ---
 
