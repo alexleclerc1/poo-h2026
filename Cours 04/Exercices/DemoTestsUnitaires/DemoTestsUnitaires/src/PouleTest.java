@@ -61,6 +61,6 @@ public class PouleTest {
 
         // Assert
         assertEquals(1, p.getNbOeufs());
-        assertEquals(20, p.getEnergie());
+        assertEquals(40, p.getEnergie());
     }
 }
