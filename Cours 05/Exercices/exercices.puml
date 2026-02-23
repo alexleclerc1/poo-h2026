@@ -1,0 +1,43 @@
+@startuml
+
+' ===== Classes =====
+class Vehicule {
+  - marque : String
+  - annee : int
+  - enMarche : boolean
+  --
+  + Vehicule(marque : String, annee : int)
+  + demarrer() : void
+  + arreter() : void
+  + seDeplacer() : void
+  + getMarque() : String
+  + getAnnee() : int
+  + isEnMarche() : boolean
+}
+
+class Voiture {
+  + Voiture(marque : String, annee : int)
+  + klaxonner() : void
+}
+
+class Chaloupe {
+  + Chaloupe(marque : String, annee : int)
+  + ramer() : void
+}
+
+class Moto {
+  + Moto(marque : String, annee : int)
+  + cabrer() : void
+}
+
+class MainSansPolymorphisme {
+  + main(args : String[]) : void
+}
+
+' ===== Inheritance =====
+Voiture --|> Vehicule
+Chaloupe --|> Vehicule
+Moto --|> Vehicule
+
+
+@enduml
