@@ -111,7 +111,7 @@
     b. Si les attributs sont `public`  
     c. Si les attributs sont `protected`
 
-9. Dans le constructeur par défaut d'une sous-classe on est pas obligé d'inscrire l'appel au constructeur par défaut de la super classe.
+9. Dans le constructeur par défaut d'une sous-classe on n'est pas obligé d'inscrire l'appel au constructeur par défaut de la super classe.
 
 10. Dans la classe Test on a accès directement aux attributs `protected` de la super classe.
   

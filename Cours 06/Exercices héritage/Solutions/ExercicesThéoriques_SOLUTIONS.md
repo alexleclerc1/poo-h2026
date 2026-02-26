@@ -128,8 +128,8 @@
     b. Si les attributs sont `public` **Vrai**  
     c. Si les attributs sont `protected` **Vrai**
 
-9. Dans le constructeur par défaut d'une sous-classe on est pas obligé d'inscrire l'appel au constructeur par défaut de la super classe.  
-   **Faux** (il est appelé implicitement)
+9. Dans le constructeur par défaut d'une sous-classe on n'est pas obligé d'inscrire l'appel au constructeur par défaut de la super classe.  
+   **Vrai** (il est appelé implicitement)
 
 10. Dans la classe Test on a accès directement aux attributs `protected` de la super classe.  
     **Faux** (seulement via des objets ou dans les sous-classes)
