@@ -51,7 +51,7 @@
 
 23. Une super classe peut posséder **plusieurs** sous-classes.
 
-24. Les interfaces permettent **l'implémentation** multiples, contrairement aux classes.
+24. Les interfaces permettent les **implémentation** multiples, contrairement aux classes.
 
 25. Inscrivez une courte définition de l'héritage simple.  
    **Réponse :** L'héritage simple permet à une classe de dériver d'une seule super classe.
@@ -83,7 +83,7 @@
 33. Quel mode d'accès devons-nous utiliser pour les attributs quand nous utilisons l'héritage ?  
    **Réponse :** `protected` (pour permettre l'accès aux sous-classes tout en protégeant contre l'accès externe).
 
-34. Si une classe Alpha hérite d'une classe `Beta`, alors la classe `Alpha` s'appelle la **sous-classe** et la classe `Beta` en est la **super classe**.
+34. Si une classe `Alpha` hérite d'une classe `Beta`, alors la classe `Alpha` s'appelle la **sous-classe** et la classe `Beta` en est la **super classe**.
 
 35. Les quatre modificateurs d'accès sont: **public**, **private**, **protected**, **package (default)**.
 

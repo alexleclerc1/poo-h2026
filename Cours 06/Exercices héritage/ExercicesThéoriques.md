@@ -49,7 +49,7 @@
 
 23. Une super classe peut posséder ___________________ sous-classes.
 
-24. Les interfaces permettent _______________ implémentations multiples, contrairement aux classes.
+24. Les interfaces permettent les _______________ multiples, contrairement aux classes.
 
 25. Inscrivez une courte définition de l'héritage simple.
 
@@ -72,7 +72,7 @@
 
 33. Quel mode d'accès devons-nous utiliser pour les attributs quand nous utilisons l'héritage ?
 
-34. Si une classe Alpha hérite d'une classe Beta, alors la classe Alpha s'appelle la _____________  classe et la classe Beta en est la ______________________ classe.
+34. Si une classe `Alpha` hérite d'une classe `Beta`, alors la classe `Alpha` s'appelle la _____________  classe et la classe `Beta` en est la ______________________ classe.
 
 35. Les quatre modificateurs d'accès sont: ____________________, ____________________, ____________________, ____________________.
 
