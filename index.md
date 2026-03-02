@@ -19,11 +19,11 @@
   * [4.1 Tests unitaires en POO](./Cours%2004/4.1-TestsUnitairesPOO.md)
 
 * Cours 05
-  * [Héritage](./Cours%2005/5.1-Heritage.md)
+  * [5.1-Héritage](./Cours%2005/5.1-Heritage.md)
 
 * Cours 06
-  * [Classe abstraite & interface](./Cours%2006/6.1-Classe%20abstraite%20&%20interface.md)
+  * [6.1-Classe abstraite & interface](./Cours%2006/6.1-Classe%20abstraite%20&%20interface.md)
 
 * Cours 07
-  * [Transtypage (`instanceof`)](./Cours%2007/7.1-Transtypage%20(instanceOf).md)
-  * [Polymorphisme (simplifié)](./Cours%2007/7.2-Polymorphisme%20(simplifié).md)
+  * [7.1-Transtypage (`instanceof`)](./Cours%2007/7.1-Transtypage%20(instanceOf).md)
+  * [7.2-Polymorphisme (simplifié)](./Cours%2007/7.2-Polymorphisme%20(simplifié).md)
