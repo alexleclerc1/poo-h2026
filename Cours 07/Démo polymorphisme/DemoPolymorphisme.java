@@ -10,6 +10,20 @@ import polymorphisme.*;
 public class DemoPolymorphisme {
 
     public static void main(String[] args) {
+
+        // LIAISONS STATIQUES
+        // Polymorphisme statique (surcharge, overloading)
+        System.out.printf("%n***** Polymorphisme statique (surcharge, overloading) *****%n");
+        Calcul c = new Calcul();
+        double val = c.calculerFormule(30); // méthode calculerFormule(int x) est trouvée
+        int res = c.calculerFormule(300.0); // méthode calculerFormule(double x) est trouvée
+
+        System.out.println(val);    // 303.15
+        System.out.println(res);    // 26
+
+        // LIAISONS DYNAMIQUES
+        // Polymorphisme dynamique (redéfinition, overriding)
+        System.out.printf("%n***** Polymorphisme dynamique (redéfinition, overriding) *****%n");
         Tracteur t1 = new Tracteur("Kioti", "CK25");
         t1.travailler(50.5);
         Tracteur t2 = new Tracteur("Kioti", "CK40");
