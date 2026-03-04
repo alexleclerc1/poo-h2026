@@ -1,0 +1,37 @@
+@startuml Le polymorphisme en POO Java
+title Exemple d'application du polymorphisme
+
+abstract class Vehicule {
+    - marque : String
+    - modele : String
+
+    + Vehicule(m : String, mo : String)
+    + {abstract} klaxon() : String
+    + {abstract} vitesseMax() : double
+}
+
+interface Kilometrique {
+    + {abstract} rouler(km : double) : void;
+    + {abstract} getOdometre() : double;
+}
+
+interface Horaire {
+    + {abstract} travailler(h : double) : void;
+    + {abstract} getHorametre() : double;
+}
+
+class Voiture extends Vehicule implements Kilometrique {
+    - odometre : double
+    + Voiture(marque : String, modele : String)
+}
+
+class Moto extends Vehicule implements Kilometrique {
+    - odometre : double
+    + Moto(marque : String, modele : String)
+}
+
+class Tracteur extends Vehicule implements Horaire {
+    - horametre : double
+    + Tracteur(marque : String, modele : String)
+}
+@enduml

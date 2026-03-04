@@ -27,3 +27,4 @@
 * Cours 07
   * [7.1-Transtypage (`instanceof`)](./Cours%2007/7.1-Transtypage%20(instanceOf).md)
   * [7.2-Polymorphisme (simplifié)](./Cours%2007/7.2-Polymorphisme%20(simplifié).md)
+  * [7.2-Polymorphisme en POO Java](./Cours%2007/7.2-Polymorphisme%20en%20POO%20Java.md)
