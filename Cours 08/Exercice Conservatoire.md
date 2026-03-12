@@ -36,11 +36,11 @@
             - Doit être **accordé** et doit avoir **évacué** le condensat pour jouer de la musique
             - **Après avoir joué 1 fois, l'instrument est plein de condensat**
     - `Timbalier`, `Pianiste` implémentent `Percusionniste`
-        - `Accorder()` : Accorde son instrument
-            - `Timablier` : Après avoir joué 2 fois, l'instrument est désaccordé
-            - `Pianiste` : Après avoir joué 100 fois, l'instrument est désaccordé
+        - `Accorder` : Accorde son instrument
+            - `Timablier` : Après avoir joué 2 fois, les timbales sont désaccordés
+            - `Pianiste` : Après avoir joué 100 fois, le piano est désaccordé
         - `Jouer()` : Fait jouer de son instrument de percussion
-            - Doit avoir du feutre sur ses baguettes ou marteaux pour jouer de la musique
+            - Doit être accordé et avoir du feutre sur ses baguettes ou marteaux pour jouer de la musique
             - Après avoir joué 50 fois, les baguettes n'ont plus de feutre
     - `ChefOrchestre`
         - `Accorder()` : **Fait accorder tous les musiciens ET préparer leurs instruments (colophane, condensat, feutrage)**
