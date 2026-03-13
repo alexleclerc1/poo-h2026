@@ -14,23 +14,23 @@
         - `Colophane()` : Met de la colophane sur son archet
     - `Ventiste`
         - `Évacuer()` : Évacuer le condensat accumulé dans l'instrusment par la clé d'eau
-    - `Percusionniste()`
+    - `Percusionniste`
         - `Refeutrage()` : Refeutre les baguettes ou marteaux de l'instrument de percussion
 
 3. **Classes** :
     - `Violoniste`, `Violoncelliste` implémentent `Cordiste`
-        - `Accorder` : Accorde son instrument
+        - `Accorder()` : Accorde son instrument
             - Après avoir joué 4 fois, l'instrument est désaccordé
         - `Jouer()` : Fait jouer de son instrument à cordes
             - Doit être **accordé** et doit avoir de la **colophane** sur son archet pour jouer de la musique
             - Après avoir joué 30 fois, il n'y a plus de colophane sur l'archet
     - `Altiste` étend `Violoniste`
-        - `Accorder` : Accorde son instrument
+        - `Accorder()` : Accorde son instrument
             - Après avoir joué 3 fois, l'instrument est désaccordé
         - `Jouer()` : Fait jouer de son instrument à cordes
             - Doit **seulement avoir de la colophane** sur son archet pour jouer de la musique
     - `Trompettiste`, `Clarinettiste` implémentent `Ventistes`
-        - `Accorder` : Accorde son instrument
+        - `Accorder()` : Accorde son instrument
             - Après avoir joué 7 fois, l'instrument est désaccordé
         - `Jouer()` : Fait jouer de son instrument à vent
             - Doit être **accordé** et doit avoir **évacué** le condensat pour jouer de la musique
