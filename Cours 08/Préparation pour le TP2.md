@@ -18,7 +18,7 @@ Préparer votre diagrammme UML et le skelette de votre application Java correspo
     - `Recherche` :
         - Définit les fonctions de recherche nécessaire à un compte utilisateur ou à un compte libraire pour trouver un article dans le catalogue 
     - `Gestion` :
-        - Définit les fonctions nécessaire à la gestion du catalogue (CRUD)
+        - Définit les fonctions nécessaires à la gestion du catalogue (CRUD)
 
 3. **Classes** :
     - `Compte` :
