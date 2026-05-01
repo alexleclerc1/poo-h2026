@@ -15,3 +15,7 @@
 - Les vidéos sont plus longues mais les explications plus complètes.
 
 [![Écouter la vidéo](https://i.ytimg.com/vi/SQae_yJBK1c/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAz0CQU7HeZGXvDMP9xHxdmjNpr8g)](https://www.youtube.com/watch?v=SQae_yJBK1c&list=PLBNheBxhHLQw30CKVBgfD1ateFz43qcU_)
+
+- Site web tutoriel en lien avec la série de vidéos
+
+[![Consulter le tutoriel](https://koor.fr/Java/SupportSwing/slide1.png)](https://koor.fr/Java/TutorialSwing/Index.wp)
