@@ -22,8 +22,5 @@ public class FenetrePrincipale extends JFrame {
 
         // ajouter des composants à la fenêtre principale
         paneauPrincipal.add(new JButton("Le bouton"));
-
-        // La fenetre se rend visible elle-même par défaut
-        this.setVisible(true);
     }
 }

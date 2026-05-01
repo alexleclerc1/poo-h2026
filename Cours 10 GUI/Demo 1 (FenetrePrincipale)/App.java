@@ -40,5 +40,6 @@ public class App {
 
         // BONNE MÉTHODE (avec les classes)
         FenetrePrincipale fenetrePrincipale = new FenetrePrincipale();
+        fenetrePrincipale.setVisible(true);
     }
 }
